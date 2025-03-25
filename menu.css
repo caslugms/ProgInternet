@@ -1,77 +1,80 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-nav{
-    background-color: #1D7DB1;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 
-.menu{
-    list-style-type: none;
+nav {
+    background-color: #1D7DB1;
+    padding: 10px;
+}
+
+.menu {
+    list-style: none;
     padding: 0;
     margin: 0;
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
 }
 
-.menu li{
-    position: relative;
+.menu li {
+    margin: 0 10px;
 }
 
-.menu li a{
-    display:block;
-    padding: 15px 20px;
+.menu li a {
     color: white;
     text-decoration: none;
-}
-
-.menu li a:hover{
-background-color: #0090DB;
-}
-
-.submenu1{
-    display: none;
-    position: absolute;
-    background-color: #2E4C5C;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.menu li:hover .submenu1{
+    padding: 10px;
     display: block;
 }
 
-.submenu1 li a{
-    padding: 10px 15px;
+.menu li a:hover {
+    background-color: #0090DB;
 }
 
-.submenu1 li a :hover{
-    background-color: aqua;
-}
-
-.submenu2{
-    display: none;
-    position: absolute;
-    background-color: #2E4C5C;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.menu li:hover .submenu2{
-    display: block;
-}
-
-.submenu2 li a{
-    padding: 10px 15px;
-}
-
-.submenu2 li a :hover{
-    background-color: aqua;
+h1 {
+    color: #1D7DB1;
 }
 
 .botoes {
-    color: #0090DB;
+    list-style: none;
+    padding: 0;
 }
 
+.botoes li {
+    margin: 10px 0;
+}
+
+.botoes a {
+    display: inline-block;
+    background: #1D7DB1;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.botoes a:hover {
+    background-color: #0090DB;
+}
+
+section {
+    padding: 20px;
+    text-align: left;
+    margin: 20px;
+}
+
+h1 {
+    color: #1D7DB1;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 1.2em;
+    color: #333;
+}
